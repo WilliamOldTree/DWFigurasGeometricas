@@ -57,22 +57,22 @@
     <header>
         <div class="container" id="figuras">
 
-            <form method="post" action="">
+            <form method="post" action="Figuras">
                 <div class="dados">
 
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Digite um valor</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="n1">
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Digite um valor</label>
-                        <input type="text" class="form-control" id="exampleInput1">
+                        <input type="text" class="form-control" id="exampleInput1" name="n2">
                     </div>
 
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Digite um valor</label>
-                        <input type="text" class="form-control" id="exampleInput2">
+                        <input type="text" class="form-control" id="exampleInput2" name="n3">
                     </div>
                     <div>
                         <button type="submit" class="btn btn-primary">Calcular</button>
